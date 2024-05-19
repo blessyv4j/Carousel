@@ -1,0 +1,28 @@
+.LoginDiv{
+    width:100%;
+    display: flex;
+    justify-content: end;
+}
+.LoginButton{
+    margin-right:24px;
+    border: 1px solid #40E0D0;
+    border-radius: 48px;
+    background-color: #40E0D0;
+    padding: 12px 48px;
+}
+.LoginPromptDiv{
+    display: flex;
+    flex-direction: column;
+}
+.PromptInput{
+    margin: 12px 24px 12px 0px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.ValidateButton{
+    border: 1px solid #40E0D0;
+    border-radius: 48px;
+    background-color: #40E0D0;
+    padding: 12px 48px;
+    margin-right: 24px;
+}

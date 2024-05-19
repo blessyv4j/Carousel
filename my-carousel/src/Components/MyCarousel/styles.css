@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.leftArrow {
+    color: #e4e7ed;
+    position: absolute;
+    left: 3%;
+    z-index: 2;
+}
+
+.leftArrow:hover {
+    color: #9dbef2;
+    cursor: pointer;
+}
+
+.rightArrow {
+    color: #e4e7ed;
+    position: absolute;
+    right: 3%;
+    z-index: 2;
+}
+
+.rightArrow:hover {
+    color: #9dbef2;
+    cursor: pointer;
+}
+
+
+
+.carousel {
+    touch-action: none;
+    border-radius: 10px;
+    width: 95vw;
+    height: calc(95vw * 0.5625);   /*9/16*/
+    max-height: 90vh;
+    margin: auto;
+    background-color: #eaebec;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.carouselItem{
+    touch-action: none;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.carouselItem img {
+    height: 100%;
+    width: 100%;
+    background-color: none;
+}
